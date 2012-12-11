@@ -47,3 +47,13 @@ Documents, RDoc & RI documentation for %{name}.
 %files doc
 %{ruby_gemdir}/doc/%{rbname}-%{version}
 
+
+
+%changelog
+* Tue Mar 29 2011 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.2.6-1
++ Revision: 648727
+- imported package rubygem-daemon_controller
+
+
+* Tue Mar 29 2011 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.2.6-1
+- Initial package
