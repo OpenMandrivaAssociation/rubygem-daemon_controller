@@ -5,7 +5,7 @@ Summary:	A library for implementing daemon management capabilities
 Name:		rubygem-%{rbname}
 
 Version:	0.2.6
-Release:	1
+Release:	2
 Group:		Development/Ruby
 License:	BSD
 URL:		http://github.com/FooBarWidget/daemon_controller/tree/master
