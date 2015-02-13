@@ -4,8 +4,8 @@
 Summary:	A library for implementing daemon management capabilities
 Name:		rubygem-%{rbname}
 
-Version:	0.2.6
-Release:	2
+Version:	1.2.0
+Release:	1
 Group:		Development/Ruby
 License:	BSD
 URL:		http://github.com/FooBarWidget/daemon_controller/tree/master
@@ -35,15 +35,15 @@ Documents, RDoc & RI documentation for %{name}.
 
 %files
 %doc LICENSE.txt README.markdown
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/daemon_controller
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/daemon_controller/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/spec
-%{ruby_gemdir}/gems/%{rbname}-%{version}/spec/*.rb
-%{ruby_gemdir}/specifications/%{rbname}-%{version}.gemspec
+%dir %{gem_dir}/gems/%{rbname}-%{version}
+%dir %{gem_dir}/gems/%{rbname}-%{version}/lib
+%{gem_dir}/gems/%{rbname}-%{version}/lib/*.rb
+%dir %{gem_dir}/gems/%{rbname}-%{version}/lib/daemon_controller
+%{gem_dir}/gems/%{rbname}-%{version}/lib/daemon_controller/*.rb
+%dir %{gem_dir}/gems/%{rbname}-%{version}/spec
+%{gem_dir}/gems/%{rbname}-%{version}/spec/*
+%{gem_dir}/specifications/%{rbname}-%{version}.gemspec
 
 %files doc
-%{ruby_gemdir}/doc/%{rbname}-%{version}
+%{gem_dir}/doc/%{rbname}-%{version}
 
