@@ -8,7 +8,7 @@ Version:	1.2.0
 Release:	3
 Group:		Development/Ruby
 License:	BSD
-URL:		http://github.com/FooBarWidget/daemon_controller/tree/master
+URL:		https://github.com/FooBarWidget/daemon_controller/tree/master
 Source0:	http://rubygems.org/gems/%{rbname}-%{version}.gem
 BuildRequires:	rubygems 
 BuildArch:	noarch
